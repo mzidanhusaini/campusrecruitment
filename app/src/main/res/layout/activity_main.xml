@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_ml"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Judul "Campus Recruitment" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Campus Recruitment"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Gambar -->
+    <ImageView
+        android:layout_width="181dp"
+        android:layout_height="207dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/campusrecruitmenticon" />
+
+    <!-- Deskripsi teks -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Aplikasi prediksi kelayakan kerja mahasiswa"
+        android:textSize="18sp" />
+
+    <!-- Tombol "Start" -->
+    <Button
+        android:id="@+id/start"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Start" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">campus_recruitment</string>
+    <string name="domain_proyek">Untuk posisi magang dan level pemula. Perekrutan kampus biasanya merupakan taktik untuk perusahaan menengah hingga besar dengan kebutuhan perekrutan bervolume tinggi, tetapi dapat berkisar dari upaya kecil (seperti bekerja dengan pusat karir universitas untuk mencari kandidat potensial) hingga operasi skala besar (seperti mengunjungi beragam perguruan tinggi dan menghadiri acara perekrutan sepanjang musim semi dan musim gugur). Perekrutan kampus sering kali melibatkan kerja sama dengan pusat layanan karier universitas dan menghadiri pameran karier untuk bertemu langsung dengan mahasiswa dan lulusan baru.</string>
+    <string name="business_understanding">Berdasarkan domain projek tersebut maka pembuatan sistem yang membantu dalam proses klasifikasi penempatan mahasiswa yang telah lulus untuk masuk di dunia industri supaya lebih terencana dan terarah sesuai dengan pengalaman dan kemampuan yang dimiliki oleh mahasiswa tersebut.</string>
+    <string name="data_understanding">Kumpulan data ini terdiri dari data penempatan mahasiswa di kampus XYZ. Ini termasuk persentase dan spesialisasi sekolah menengah dan sekolah menengah atas. Ini juga mencakup spesialisasi gelar, jenis dan Pengalaman kerja dan penawaran gaji kepada siswa yang ditempatkan</string>
+    <string name="link_dataset">sumber:  https://www.kaggle.com/datasets/benroshan/factors-affecting-campus-placement</string>
+</resources>

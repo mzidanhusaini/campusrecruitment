@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_ml">
+
+    <!-- Container for input fields -->
+
+    <!-- Button -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:paddingBottom="16dp"
+        android:text="SIMULASI MODEL"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="44dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <!-- Left column -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingEnd="8dp">
+
+            <EditText
+                android:id="@+id/id_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="gender\n(1=male 2=female)" />
+
+            <EditText
+                android:id="@+id/id_ssc_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="secondary education percentage\n(0-100)" />
+
+            <EditText
+                android:id="@+id/id_ssc_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="board of education\n(0-1)" />
+
+            <EditText
+                android:id="@+id/id_hsc_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="higher secondary education\n(0-1)" />
+
+            <EditText
+                android:id="@+id/id_hsc_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="board education-central\n(0-1)" />
+
+            <EditText
+                android:id="@+id/id_hsc_s"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="specialization in higher secondary\n(0-2)" />
+        </LinearLayout>
+
+        <!-- Right column -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="8dp">
+
+            <EditText
+                android:id="@+id/id_degree_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Degree Percentage\n(0-100)" />
+
+            <EditText
+                android:id="@+id/id_degree_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Degree type\n(0-2)" />
+
+            <EditText
+                android:id="@+id/id_workex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="work experience\n(0-1)" />
+
+            <EditText
+                android:id="@+id/id_etest_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Employability test\n(0-1)" />
+
+            <EditText
+                android:id="@+id/id_specialisation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Spesialisation\n(0-1)" />
+
+            <EditText
+                android:id="@+id/id_mba_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="MBA percentage\n(0-100)" />
+
+            <EditText
+                android:id="@+id/id_salary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Salary\n($.0 - $1.000.000)" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/id_button"
+        android:backgroundTint="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_result" />
+
+    <TextView
+        android:id="@+id/id_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="HASIL"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
